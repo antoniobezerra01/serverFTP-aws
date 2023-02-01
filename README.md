@@ -37,7 +37,7 @@ Após baixar o serviços de FTP teremos que habilita-los e inicia-los na instân
 
 Em primeiro lugar, navegue até a página de gerenciamento de grupo de segurança, identifique o grupo de segurança responsável pela sua instância executando. Após isso, clique no em `Editar regras de entradas` e adicione as seguintes regra abaixo:
 
-![Regras de Entradas](ftp-regras.PNG)
+![Regras de Entradas](imagens/ftp-regras.PNG)
 
 Após isso clique no botão `Salvar regras`.
 
@@ -89,7 +89,7 @@ Após isso, temos o necessário para ser possível o acesso do servidor FTP pelo
 Há alguns maneiras de acessar um servidor FTP, tanto pelo terminal, como por alguns aplicativos. No nosso caso, iremos utilizar o aplicativo [FileZilla](https://filezilla-project.org), ele é multiplataforma, então acesse o site oficial dele e faça o download de acordo com seu SO.
 
 Então vamos seguir abrindo o aplicativo no FileZilla no computador pessoal, após isso devemos preencher algumas informações visualizadas na imagem abaixo:
-![FileZilla](filezila.PNG)
+![FileZilla](imagens/filezila.PNG)
 
 - Preencha o campo `Host` com o IP público da sua instância EC2 em execução.
 - Preencha o campo `Nome de usuário` com o nome do seu usuário criado na sessão anterior, no meu caso foi `ftpuser`
@@ -99,7 +99,7 @@ Após isso, pode clicar em `Conexão rápida`
 
 Na própia tela do FileZilla há logs referente a conexão do servidor, seguindo esses passos ela deve mostrar que a conexão com servidor foi estabelecida. Com isso, ja podemos adicionar, editar, excluir, baixar e carregar arquivos e diretórios. Veja abaixo uma foto do FileZilla com a conexão feita e disponível para realizar algumas ações:
 
-![Conexão estabelecida](filezila01.PNG)
+![Conexão estabelecida](imagens/filezila01.PNG)
 
 # Referências
 - [Tutorial de como configurar  servidor FTP](https://medium.com/tensult/configure-ftp-on-aws-ec2-85b5b56b9c94) [Em inglês].
